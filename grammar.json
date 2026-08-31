@@ -1,0 +1,346 @@
+{
+  "bemba": {
+    "language": "Bemba",
+    "code": "bem",
+    "region": "Copperbelt, Luapula, Northern Province",
+    "family": "Bantu",
+    "topics": {
+      "noun_classes": {
+        "title": "Noun Classes",
+        "description": "Bemba, like all Bantu languages, organizes nouns into classes. Each class has a prefix that changes based on singular/plural and affects verb and adjective agreement.",
+        "rules": [
+          {
+            "class": "Class 1/2 (People)",
+            "singular_prefix": "u-",
+            "plural_prefix": "ba-",
+            "example_singular": "umuntu (person)",
+            "example_plural": "abantu (people)",
+            "note": "Used for human beings and personified things"
+          },
+          {
+            "class": "Class 3/4 (Things)",
+            "singular_prefix": "u-",
+            "plural_prefix": "i-",
+            "example_singular": "umutwe (head)",
+            "example_plural": "imitwe (heads)",
+            "note": "Used for body parts, trees, and abstract nouns"
+          },
+          {
+            "class": "Class 5/6 (Objects)",
+            "singular_prefix": "i-",
+            "plural_prefix": "ama-",
+            "example_singular": "icapo (book)",
+            "example_plural": "amacapo (books)",
+            "note": "Common class for everyday objects"
+          },
+          {
+            "class": "Class 7/8 (Small things)",
+            "singular_prefix": "ici-",
+            "plural_prefix": "ifi-",
+            "example_singular": "icipuna (small basket)",
+            "example_plural": "ifipuna (small baskets)",
+            "note": "Often used for small or diminutive objects"
+          },
+          {
+            "class": "Class 9/10 (Animals)",
+            "singular_prefix": "in-",
+            "plural_prefix": "in-",
+            "example_singular": "inama (animal)",
+            "example_plural": "inama (animals)",
+            "note": "Same prefix for singular and plural; context determines number"
+          }
+        ]
+      },
+      "verb_conjugation": {
+        "title": "Verb Conjugation",
+        "description": "Bemba verbs carry a subject marker prefix and a tense marker. The verb root stays the same while prefixes and suffixes change.",
+        "rules": [
+          {
+            "tense": "Present",
+            "structure": "Subject Marker + -a- + Verb Root + -a",
+            "example": "Ndalya (I am eating)",
+            "breakdown": "Nd (I) + a (present) + ly (eat) + a (final vowel)"
+          },
+          {
+            "tense": "Past (Recent)",
+            "structure": "Subject Marker + -ali- + Verb Root + -ile",
+            "example": "Ndaliile (I ate / just ate)",
+            "breakdown": "Nd (I) + ali (past) + ly (eat) + ile (past suffix)"
+          },
+          {
+            "tense": "Future",
+            "structure": "Subject Marker + -ala- + Verb Root + -a",
+            "example": "Ndalya (I will eat)",
+            "breakdown": "Nd (I) + ala (future) + ly (eat) + a (final vowel)"
+          },
+          {
+            "tense": "Negative Present",
+            "structure": "Ta- + Subject Marker + Verb Root + -a",
+            "example": "Talyapo (I do not eat)",
+            "breakdown": "Ta (negation) + ly (eat) + apo (negative final)"
+          }
+        ],
+        "subject_markers": [
+          { "pronoun": "I (Ine)", "marker": "Nd-" },
+          { "pronoun": "You (Iwe)", "marker": "U-" },
+          { "pronoun": "He/She (Uyo)", "marker": "A-" },
+          { "pronoun": "We (Ifwe)", "marker": "Tu-" },
+          { "pronoun": "You all (Imwe)", "marker": "Mu-" },
+          { "pronoun": "They (Abo)", "marker": "Ba-" }
+        ]
+      },
+      "sentence_structure": {
+        "title": "Sentence Structure",
+        "description": "Bemba generally follows a Subject-Verb-Object (SVO) word order, similar to English, but the verb carries most of the grammatical information.",
+        "rules": [
+          {
+            "pattern": "Basic SVO",
+            "structure": "Subject + Verb + Object",
+            "example": "Umuntu alya ubwali",
+            "translation": "The person eats nshima",
+            "note": "Standard sentence order in Bemba"
+          },
+          {
+            "pattern": "Negative Sentence",
+            "structure": "Ta- + Subject Marker + Verb + Object",
+            "example": "Talyapo ubwali",
+            "translation": "Does not eat nshima",
+            "note": "Ta- is added before the verb to negate"
+          },
+          {
+            "pattern": "Question Formation",
+            "structure": "Statement + rising intonation / Nga (if/whether)",
+            "example": "Walya ubwali? / Nga walya ubwali?",
+            "translation": "Did you eat nshima?",
+            "note": "Questions can be formed with intonation or the nga particle"
+          }
+        ]
+      },
+      "tones": {
+        "title": "Tones",
+        "description": "Bemba is a tonal language. The same word can mean different things depending on whether the tone is high (H) or low (L).",
+        "rules": [
+          {
+            "concept": "High Tone",
+            "symbol": "á (accent mark)",
+            "example": "úmutima (heart)",
+            "note": "A rising or sustained high pitch on the syllable"
+          },
+          {
+            "concept": "Low Tone",
+            "symbol": "a (no mark)",
+            "example": "umutima (different meaning at low tone)",
+            "note": "A lower, flat pitch; default in writing when no mark shown"
+          },
+          {
+            "concept": "Tone Shift (Downstep)",
+            "symbol": "! before syllable",
+            "example": "Tone can shift across a sentence",
+            "note": "In connected speech, tones shift progressively lower — called downstep"
+          }
+        ]
+      }
+    }
+  },
+  "nyanja": {
+    "language": "Nyanja / Chewa",
+    "code": "nya",
+    "region": "Lusaka, Eastern Province",
+    "family": "Bantu",
+    "topics": {
+      "noun_classes": {
+        "title": "Noun Classes",
+        "description": "Nyanja organizes nouns into classes similar to other Bantu languages, with prefixes that determine agreement with verbs and adjectives.",
+        "rules": [
+          {
+            "class": "Class 1/2 (People)",
+            "singular_prefix": "m-/mu-",
+            "plural_prefix": "a-",
+            "example_singular": "munthu (person)",
+            "example_plural": "anthu (people)",
+            "note": "Primary class for humans"
+          },
+          {
+            "class": "Class 3/4 (Trees & Plants)",
+            "singular_prefix": "m-/mu-",
+            "plural_prefix": "mi-",
+            "example_singular": "mtengo (tree)",
+            "example_plural": "mitengo (trees)",
+            "note": "Used for trees, plants, and some abstract concepts"
+          },
+          {
+            "class": "Class 5/6 (Objects)",
+            "singular_prefix": "li-",
+            "plural_prefix": "ma-",
+            "example_singular": "lija (that thing)",
+            "example_plural": "manja (hands)",
+            "note": "Common for body parts and paired objects"
+          },
+          {
+            "class": "Class 7/8 (Things)",
+            "singular_prefix": "chi-",
+            "plural_prefix": "zi-",
+            "example_singular": "chinthu (thing)",
+            "example_plural": "zinthu (things)",
+            "note": "General class for inanimate objects"
+          },
+          {
+            "class": "Class 9/10 (Animals)",
+            "singular_prefix": "n-",
+            "plural_prefix": "n-",
+            "example_singular": "nyama (animal/meat)",
+            "example_plural": "nyama (animals/meat)",
+            "note": "No change between singular and plural"
+          }
+        ]
+      },
+      "verb_conjugation": {
+        "title": "Verb Conjugation",
+        "description": "Nyanja verbs agree with their subjects through prefixes. Tense is marked by infixes placed between the subject marker and verb root.",
+        "rules": [
+          {
+            "tense": "Present Continuous",
+            "structure": "Subject Marker + -ku- + Verb Root + -a",
+            "example": "Ndikudya (I am eating)",
+            "breakdown": "Ndi (I) + ku (present cont.) + dy (eat) + a (final vowel)"
+          },
+          {
+            "tense": "Simple Past",
+            "structure": "Subject Marker + -na- + Verb Root + -a",
+            "example": "Ndinadya (I ate)",
+            "breakdown": "Ndi (I) + na (past) + dy (eat) + a (final vowel)"
+          },
+          {
+            "tense": "Future",
+            "structure": "Subject Marker + -dza- + Verb Root + -a",
+            "example": "Ndidzadya (I will eat)",
+            "breakdown": "Ndi (I) + dza (future) + dy (eat) + a (final vowel)"
+          },
+          {
+            "tense": "Negative",
+            "structure": "Si- + Subject Marker + -ku- + Verb Root + -a",
+            "example": "Sindikudya (I am not eating)",
+            "breakdown": "Si (negation) + ndi (I) + ku + dy + a"
+          }
+        ],
+        "subject_markers": [
+          { "pronoun": "I (Ine)", "marker": "Ndi-" },
+          { "pronoun": "You (Iwe)", "marker": "U-" },
+          { "pronoun": "He/She (Iye)", "marker": "A-" },
+          { "pronoun": "We (Ife)", "marker": "Ti-" },
+          { "pronoun": "You all (Inu)", "marker": "Mu-" },
+          { "pronoun": "They (Iwo)", "marker": "A-" }
+        ]
+      },
+      "sentence_structure": {
+        "title": "Sentence Structure",
+        "description": "Nyanja follows a Subject-Verb-Object (SVO) structure. The verb is the core of the sentence and carries tense, subject, and sometimes object information.",
+        "rules": [
+          {
+            "pattern": "Basic SVO",
+            "structure": "Subject + Verb + Object",
+            "example": "Munthu amadya nsima",
+            "translation": "The person eats nshima",
+            "note": "Standard Nyanja sentence structure"
+          },
+          {
+            "pattern": "Negative Sentence",
+            "structure": "Si + Subject Marker + Verb + Object",
+            "example": "Sindikudya nsima",
+            "translation": "I am not eating nshima",
+            "note": "Si- prefix negates the verb phrase"
+          },
+          {
+            "pattern": "Question",
+            "structure": "Statement + ? (rising intonation) or Kodi at start",
+            "example": "Kodi mudya nsima?",
+            "translation": "Are you eating nshima?",
+            "note": "Kodi is a question particle used at the start of yes/no questions"
+          }
+        ]
+      },
+      "adjectives": {
+        "title": "Adjectives",
+        "description": "In Nyanja, adjectives agree with the noun class they modify. The adjective takes a prefix that matches the noun's class prefix.",
+        "rules": [
+          {
+            "concept": "Agreement with Class 1 (People)",
+            "structure": "Noun + Adjective with a- prefix",
+            "example": "Munthu wabwino (a good person)",
+            "note": "wa- prefix on adjective agrees with Class 1 noun"
+          },
+          {
+            "concept": "Agreement with Class 7 (chi-)",
+            "structure": "Noun + Adjective with chi- prefix",
+            "example": "Chinthu chabwino (a good thing)",
+            "note": "cha- prefix on adjective agrees with chi- noun class"
+          },
+          {
+            "concept": "Size Adjectives",
+            "structure": "-kulu (big), -ng'ono (small)",
+            "example": "Mtengo waukulu (a big tree), mtengo waung'ono (a small tree)",
+            "note": "Size adjectives also take class agreement prefixes"
+          }
+        ]
+      }
+    }
+  },
+  "tonga": {
+    "language": "Tonga",
+    "code": "toi",
+    "region": "Southern Province, parts of Western Province",
+    "family": "Bantu",
+    "topics": {
+      "noun_classes": {
+        "title": "Noun Classes",
+        "description": "Tonga has a rich noun class system typical of Bantu languages, with each class affecting verb and adjective agreement.",
+        "rules": [
+          {
+            "class": "Class 1/2 (People)",
+            "singular_prefix": "mu-",
+            "plural_prefix": "ba-",
+            "example_singular": "muntu (person)",
+            "example_plural": "bantu (people)",
+            "note": "Used for people and human roles"
+          },
+          {
+            "class": "Class 3/4 (Trees)",
+            "singular_prefix": "mu-",
+            "plural_prefix": "mi-",
+            "example_singular": "musamu (tree/medicine)",
+            "example_plural": "misamu (trees/medicines)",
+            "note": "Used for trees, plants, and medicine"
+          },
+          {
+            "class": "Class 5/6 (Objects)",
+            "singular_prefix": "li-",
+            "plural_prefix": "ma-",
+            "example_singular": "liziba (pool of water)",
+            "example_plural": "maziba (pools of water)",
+            "note": "Common for natural features and some body parts"
+          }
+        ]
+      },
+      "sentence_structure": {
+        "title": "Sentence Structure",
+        "description": "Tonga follows SVO order. Verbs carry subject markers and tense markers as prefixes and infixes.",
+        "rules": [
+          {
+            "pattern": "Basic Statement",
+            "structure": "Subject + Verb (with subject marker) + Object",
+            "example": "Muntu wakalyaa nama",
+            "translation": "The person ate meat",
+            "note": "waka- marks past tense with Class 1 subject"
+          },
+          {
+            "pattern": "Greeting Response",
+            "structure": "Tiiyo / Ndili buti",
+            "example": "Muzuhane — Tiiyo, ndili buti",
+            "translation": "Good morning — Yes, I am fine",
+            "note": "Common formal exchange in Tonga"
+          }
+        ]
+      }
+    }
+  }
+}
